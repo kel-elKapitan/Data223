@@ -22,8 +22,8 @@ print('End of second func() call')
 print('End of program')
 
 
-# code inside here can only be used for this module
-# cannot be used by other modules
+# code inside the following if staement can only be used for this module
+# and cannot be used by other modules
 # this is useful for testing
 # this is useful for running code only when the module is run directly
 if __name__ == "__main__":
