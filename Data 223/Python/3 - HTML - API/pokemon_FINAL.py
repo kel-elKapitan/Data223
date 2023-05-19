@@ -15,7 +15,7 @@ def get_pokemon_id(name):
 
 def get_pokemon_details(id):
     	response= requests.get(f'https://pokeapi.co/api/v2/pokemon/{id}') 
-	pokemon_data=response.json() 
+		pokemon_data=response.json() 
     	id=pokemon_data['id'] 
     	name=pokemon_data['name']
 
